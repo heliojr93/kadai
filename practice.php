@@ -1,2 +1,7 @@
 <?php 
-echo 'hello php';
+$time=time();
+echo $time;
+
+
+
+?>
