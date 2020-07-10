@@ -14,18 +14,18 @@
             echo "あなたの名前ではありません。";
         }
         echo "\n";
-        $count=1;
-        for($i=1;$i<10000;$i++){
-            echo $count+=$i;
-            $count++;
+        $count=0;
+        for($i=1;$i<=10000;$i++){
+            $count+=$i;
         }
+        echo $count;
         echo "\n";
         $count2=1;
         $fruits=['apple','banana','melon','orange','pear'];
         foreach ($fruits as $fruit){
             echo "{$count2}=>{$fruit}";
             echo "\n";
-            $count+=1;
+            $count2+=1;
         }
         echo "\n";
         $start=1;
